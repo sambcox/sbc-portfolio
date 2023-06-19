@@ -16,12 +16,42 @@
   }
 }
 
+@media (max-width: 767px) {
+  .image-container {
+    width: 50%;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #DDD9CE ;
+}
+
+nav {
+  background-color: #224B6B
+}
+
+.nav-hover-color {
+  background-color: #CFA498
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  height: 500px;
+}
+
+.image {
+  height: 470px;
+  width: auto;
+}
+
+.about-me-bg {
+  background-color: #224B6B;
+}
+
+.about-me-text {
+  color: #224B6B;
 }
