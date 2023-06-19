@@ -9,7 +9,7 @@ export default function About() {
       <main id="home" className="py-10 bg-transparent h-screen flex flex-col">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl font-bold about-me-text mb-4">About Me</h1>
-            <div className="about-me-bg p-6 shadow sm:rounded-lg">
+            <div className="about-me-bg mb-4 p-6 shadow sm:rounded-lg">
               <p className="text-lg text-gray-100">
                 Hello! I&apos;m Samuel Cox, a passionate Software Engineer based in the Denver Area. Let me tell you a little bit about myself.
               </p>
@@ -30,8 +30,8 @@ export default function About() {
               </p>
             </div>
           </div>
-        </main>
         <Footer />
+        </main>
       </div>
   )
 }

@@ -24,7 +24,7 @@ const ProjectsList: React.FC = () => {
   return (
     <div className="grid grid-cols-2 gap-4">
       {projects.map((project) => (
-        <div key={project.id} className="p-4 bg-gray-100 rounded-md transition-colors duration-300 hover:bg-gray-200">
+        <div key={project.id} className="text-gray-700 p-4 bg-gray-100 rounded-md transition-colors duration-300 hover:bg-gray-200">
           <a href={project.html_url} target="_blank" rel="noopener noreferrer" className="transition-colors duration-300 hover:text-blue-500">
             <h2 className="text-xl font-bold">{project.name}</h2>
           </a>
