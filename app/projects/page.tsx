@@ -11,7 +11,7 @@ const ProjectsPage: NextPage = () => {
       <main id="home" className="py-10 bg-transparent h-screen flex flex-col">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold about-me-text mt-4 mb-4">My Most Recent Projects</h1>
-          <div className="about-me-bg p-6 shadow sm:rounded-lg">
+          <div className="about-me-bg mb-4 p-6 shadow sm:rounded-lg">
             <ProjectsList />
           </div>
         </div>
