@@ -14,7 +14,7 @@ export default function About() {
                 Hello! I&apos;m Samuel Cox, a passionate Software Engineer based in the Denver Area. Let me tell you a little bit about myself.
               </p>
               <p className="mt-4 text-gray-100">
-                I am a recent career changer! I spent seven years in the automotive industry, spending time working in a variety of roles. I worked in technical roles, customer facing roles, and financial roles. I also spent time working for a business to business SaaS company! I have just completed the Turing School of Software and Design&apos;s Back End Engineering program, and I am excited for what is to come!
+                I am a recent career changer! I recently completed the Turing School of Software and Design&apos;s Back End Software Engineering program, during which I gained experience, completing over 15 projects in Ruby, Ruby on Rails, and Python. I also learned the importance of team dynamics and planning in the software lifestyle.
               </p>
               <p className="mt-4 text-gray-100">
                 I believe that complex problems are best solved by taking the right approach, and that those problems often have simpler solutions than one might think. I hold critical thinking and problem solving as my most proud skills, and truly believe that those will take me far!
